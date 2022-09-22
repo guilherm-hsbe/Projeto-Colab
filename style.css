@@ -1,14 +1,17 @@
-body{
+*{
     background-color: #282828;
-    color:white;
+    color: white;
+    font-family: roboto, arial, helvetica, sans-serif;
+    font-weight: bold;
 }
 button{
     background-color: #282828;
-    border: 0px;
+    border: 1px solid orange;
     display: flex;
     justify-content: center;
     margin-right: 5px;
 }
 button:hover{
     color:#528B8B;
+    border:1px solid white;
 }
