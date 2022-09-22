@@ -1,0 +1,15 @@
+body{
+    background-color: #282828;
+    color:white;
+}
+button{
+    background-color: #282828;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+button:hover{
+    color:#528B8B;
+    
+}
