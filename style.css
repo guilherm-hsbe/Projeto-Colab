@@ -1,17 +1,34 @@
-*{
+body{
     background-color: #282828;
-    color: white;
-    font-family: roboto, arial, helvetica, sans-serif;
-    font-weight: bold;
+    color:white;
 }
 button{
     background-color: #282828;
-    border: 1px solid orange;
+    border: 0px;
     display: flex;
     justify-content: center;
     margin-right: 5px;
 }
 button:hover{
     color:#528B8B;
-    border:1px solid white;
+}
+.container{
+    display:flex;
+    border:3px solid orange;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:3px;
+    padding:5px;
+    border-radius:10px;
+    text-align: center;
+}
+.cabecalho{
+    display:flex;
+    background-color:#282828;
+    color: #528B8B;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    position:fixed;
 }
